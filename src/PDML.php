@@ -351,6 +351,7 @@ class PDML extends FPDF
     }
 
     function ProcessText($text) {
+        $text = iconv('utf-8', 'cp1252', $text);
         switch ($this->parserState) {
             case 0:
             case 1:
