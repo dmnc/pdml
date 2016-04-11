@@ -1,0 +1,12 @@
+{
+    "name": "dmnc/pdml",
+    "description": "100% PHP for easily creating complex PDF documents",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Dom Morgan",
+            "email": "dom@d3r.com"
+        }
+    ],
+    "require": {}
+}
