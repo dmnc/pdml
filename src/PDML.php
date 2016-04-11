@@ -2,7 +2,7 @@
 
 namespace pdml;
 
-use fpdf\FPDF;
+use FPDF;
 
 /**
  * PDML
@@ -312,10 +312,10 @@ class PDML extends FPDF
                     array(
                         ' ',
                         $this->PageNo(),
-                        $this->title,
-                        $this->author,
-                        $this->subject,
-                        $this->creator
+                        isset($this->metadata['Title']) ? $this->metadata['Title'] : "",
+                        isset($this->metadata['Author']) ? $this->metadata['Author'] : "",
+                        isset($this->metadata['Subject']) ? $this->metadata['Subject'] : "",
+                        isset($this->metadata['Creator']) ? $this->metadata['Creator'] : "",
                     ) ,$e)));
             } else {
                 // tag

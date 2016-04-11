@@ -24,7 +24,7 @@ function pdml2pdf($buffer)
     global $PDML_Format;
 
     $pdml = new PDML($PDML_Orientation,'pt',$PDML_Format);
-    $pdml->compress=0;
+    $pdml->SetCompression(false);
     $pdml->ParsePDML($buffer);
     $s = $pdml->Output("","S");
     return ($s);
