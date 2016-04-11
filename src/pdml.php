@@ -1,18 +1,22 @@
 <?php
 
-/*******************************************************************************
-* PDML                                                                         *
-*                                                                              *
-* Version:  1.0                                                                *
-* Date:     2009-11-15                                                         *
-* License:  GPL                                                                *
-*                                                                              *
-* http://sourceforge.net/projects/pdml/                                        *
-*                                                                              *
-*******************************************************************************/
+namespace pdml;
 
+use fpdf\FPDF;
 
-class PDML extends FPDF {
+/**
+ * PDML
+ *
+ * Date:     2009-11-15
+ *
+ * @version  1.0
+ * @license  GPL
+ * @see http://sourceforge.net/projects/pdml/
+ *
+ */
+
+class PDML extends FPDF
+{
 
     var $parserState=0;
     var $final;             // final PDF output.
@@ -43,6 +47,8 @@ class PDML extends FPDF {
 
     /* Rotation extension. Should go away with 1.6 */
     var $angle=0;
+
+
     function Rotate($angle,$x=-1,$y=-1)
     {
         if($x==-1)
