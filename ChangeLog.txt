@@ -1,0 +1,25 @@
+************
+* PDML 1.0 *
+************
+
+Version 1.0 - 14 November 2009
+------------------------------
+ - FPDF upgraded from 1.52 to 1.6
+ - Barcode (code 39) support added
+ - HTML entity &euro; added
+ - HTML entity &bull; added
+ - Fixed pagebreak bug
+ - Improved auto-create page mechanism
+ - COLOR attribute support 16 colors by name.
+ - LINE tag default X2 parameter is changed into right margin
+ - New attributes added for PAGE tag (TOP,LEFT,RIGHT,BOTTOM,BORDER)
+ - New configuration variables PDML_AutoStart, PDML_FileName,
+   PDML_Orientation, PDML_Format added
+
+Version 0.9 alpha - 4 May 2004
+------------------------------
+ - Featuring cells, ellipses and multi-columns. 
+
+Version 0.8 alpha - 3 May 2004
+------------------------------
+ - First version.
