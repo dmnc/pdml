@@ -2,10 +2,17 @@
     "name": "dmnc/pdml",
     "description": "100% PHP for easily creating complex PDF documents",
     "license": "GPL-2.0+",
+    "homepage": "http://www.pdml-pdf.net/",
+    "keywords": ["PDF", "PDML"],
     "authors": [
         {
             "name": "Dom Morgan",
-            "email": "dom@d3r.com"
+            "email": "dom@d3r.com",
+            "homepage": "https://d3r.com"
+        },
+        {
+            "name": "Nesscis Internet Services",
+            "homepage": "http://www.nesscis.nl/"
         }
     ],
     "require": {
