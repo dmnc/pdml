@@ -5,11 +5,13 @@
 - Namespacing for PSR-4 support.
 - composer.json for packagist support.
 - Composer FPDF requirement.
+
 ### Changed
 - Moved functions into their own include.
 - Converted supporting documents to markdown.
 - Moved examples into their own folder.
-## Removed
+
+### Removed
 - Hard dependency on FPDF.
 - Autorun support.
 
