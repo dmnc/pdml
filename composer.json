@@ -8,5 +8,13 @@
             "email": "dom@d3r.com"
         }
     ],
-    "require": {}
+    "require": {
+        "itbz/fpdf": "^1.7"
+    },
+    "autoload": {
+        "files": ["src/functions_include.php"],
+        "psr-4": {
+            "pdml\\": "src/"
+        }
+    }
 }
