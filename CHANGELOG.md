@@ -1,9 +1,6 @@
-************
-* PDML 1.0 *
-************
+# Changelog
 
-Version 1.0 - 14 November 2009
-------------------------------
+## 1.0 - 14 November 2009
  - FPDF upgraded from 1.52 to 1.6
  - Barcode (code 39) support added
  - HTML entity &euro; added
@@ -16,10 +13,8 @@ Version 1.0 - 14 November 2009
  - New configuration variables PDML_AutoStart, PDML_FileName,
    PDML_Orientation, PDML_Format added
 
-Version 0.9 alpha - 4 May 2004
-------------------------------
- - Featuring cells, ellipses and multi-columns. 
+## 0.9 alpha - 4 May 2004
+ - Featuring cells, ellipses and multi-columns.
 
-Version 0.8 alpha - 3 May 2004
-------------------------------
+## 0.8 alpha - 3 May 2004
  - First version.
