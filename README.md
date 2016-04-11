@@ -1,12 +1,12 @@
-#PDML
+# PDML
 
-This is a composer and PSR-4, composer compatible version of PDML.
+This is a composer and PSR-4 compatible version of PDML based on v1.0.
 
-Classes have been moved into a `PDML` namespace.
+Classes (all one of them) have been moved into a `pdml` namespace.
 
-To install simply `compsoer require dmnc/pdml`.
+To install simply `composer require dmnc/pdml`.
 
-### Original README.txt
+## Original README.txt
 
 http://www.pdml-pdf.net/
 http://sourceforge.net/projects/pdml/

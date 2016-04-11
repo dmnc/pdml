@@ -1,6 +1,19 @@
 # Changelog
 
-## 1.0 - 14 November 2009
+## [1.1.0] 2016-04-11
+### Added
+- Namespacing for PSR-4 support.
+- composer.json for packagist support.
+- Composer FPDF requirement.
+### Changed
+- Moved functions into their own include.
+- Converted supporting documents to markdown.
+- Moved examples into their own folder.
+## Removed
+- Hard dependency on FPDF.
+- Autorun support.
+
+## 1.0 - 2009-10-14
  - FPDF upgraded from 1.52 to 1.6
  - Barcode (code 39) support added
  - HTML entity &euro; added
@@ -13,8 +26,11 @@
  - New configuration variables PDML_AutoStart, PDML_FileName,
    PDML_Orientation, PDML_Format added
 
-## 0.9 alpha - 4 May 2004
+## 0.9 alpha - 2004-05-04
  - Featuring cells, ellipses and multi-columns.
 
-## 0.8 alpha - 3 May 2004
+## 0.8 alpha - 2004-05-03
  - First version.
+
+[Unreleased]: https://github.com/dmnc/pdml/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/dmnc/pdml/releases/tag/v1.1.0
